@@ -1,0 +1,10 @@
+POST http://localhost:3005/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDY3YjY0NzBlZjg0MmRmMWJhMDA0NCIsInVzZXJuYW1lIjoicmljYXJkb2RldiIsImlhdCI6MTY2MTQyODU5NH0.Z0dwLh8_tvbhrL3WbGs_CutXhBHGAdFfcTh4MYNiNjs
+
+{    
+    "title": "Nota creada con token",
+    "author": "Robert C. Martin",
+    "url": "http://localhost",
+    "likes": 2
+}
